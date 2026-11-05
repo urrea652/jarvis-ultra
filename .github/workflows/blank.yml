@@ -1,0 +1,28 @@
+# JARVIS ULTRA NATIVE v6 GOD MODE
+Esta es la version que SI escucha con pantalla apagada y abre todas las apps.
+1. Crea repo en GitHub jarvis-ultra-native
+2. Crea archivos manualmente copiando desde esta pagina
+3. Activa Actions y Run workflow
+4. Descarga APK
+
+## QUE HACE ESTA VERSION GOD MODE:
+- [OK] Wake word "Hey Manny" 24/7 incluso con pantalla apagada
+- [OK] Foreground Service con microfono tipo microphone
+- [OK] Abre CUALQUIER app instalada (WhatsApp, Instagram, Bancolombia, etc)
+- [OK] LLM 100% offline Llama 3.2 3B
+- [OK] Vosk offline para deteccion de voz
+- [OK] Overlay system alert para responder flotante
+
+## SI NO PUEDES ABRIR EL ZIP EN EL CELULAR:
+Entra a github.com/new -> Crea repo jarvis-ultra-native -> Add file -> Create new file
+Copia cada archivo desde esta pagina visor y pegalo tal cual.
+
+## ESTRUCTURA:
+app/src/main/java/com/manny/jarvisultra/MainActivity.kt
+app/src/main/java/com/manny/jarvisultra/JarvisForegroundService.kt
+app/src/main/java/com/manny/jarvisultra/LLMEngine.kt
+app/src/main/AndroidManifest.xml
+app/build.gradle
+.github/workflows/build-apk.yml
+
+Build: GitHub Actions -> Run workflow -> Descarga APK en Artifacts
